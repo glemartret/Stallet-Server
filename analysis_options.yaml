@@ -1,0 +1,24 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    always_use_package_imports: true
+    sort_pub_dependencies: true
+    directives_ordering: true
+
+    # Flutter 3.0 Lints
+    invariant_booleans: true
+    cast_nullable_to_non_nullable: true
+    no_default_cases: true
+    require_trailing_commas: true
+    unnecessary_null_checks: true
+    use_enums: true
+    use_late_for_private_fields_and_variables: true
+    use_super_parameters: true
+
+analyzer:
+  exclude:
+    - "**.freezed.dart"
+    - "**.g.dart"
+    - build/**
