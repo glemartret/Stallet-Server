@@ -17,6 +17,9 @@ linter:
     use_late_for_private_fields_and_variables: true
     use_super_parameters: true
 
+    # Disabled For id routes
+    file_names: false
+
 analyzer:
   exclude:
     - "**.freezed.dart"
